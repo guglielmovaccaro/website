@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
+  background: #FF6600;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #0678e3;
+  background: #FF6600;
   transition: background 0.2s ease-in-out;
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #FF6600;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background: #0563bb;
+  background: #FF6600;
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #0563bb;
+  color: #FF6600;
 }
 
 /*--------------------------------------------------------------
@@ -331,7 +331,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #000000;
 }
 
 .section-title h2::before {
@@ -351,7 +351,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #FF6600;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -366,7 +366,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #000000;
 }
 
 .about .content ul {
@@ -381,7 +381,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #0563bb;
+  color: #FF6600;
 }
 
 .about .content p:last-child {
@@ -406,7 +406,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
+  background: #FF6600;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -458,7 +458,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #0563bb;
+  background-color: #FF6600
 }
 
 /*--------------------------------------------------------------
@@ -475,7 +475,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #FF6600;
   position: relative;
 }
 
@@ -485,7 +485,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #FF6600;
   margin-bottom: 10px;
 }
 
@@ -519,7 +519,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #FF6600;
 }
 
 /*--------------------------------------------------------------
@@ -627,12 +627,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #45505b;
+  color: #000000;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: #000000;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -1105,8 +1105,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #fae0d0;
+  color: #000000;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1135,7 +1135,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #FF6600;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1148,7 +1148,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #FF6600;
   color: #fff;
   text-decoration: none;
 }
