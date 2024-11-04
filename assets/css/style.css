@@ -903,7 +903,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #FF6600;
   float: left;
   width: 44px;
   height: 44px;
@@ -935,7 +935,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #FF6600;
   color: #fff;
 }
 
@@ -1013,7 +1013,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #0563bb;
+  background: #FF6600;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1109,7 +1109,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #FF6600;
+  background: linear-gradient(135deg, #FF6600, #FF9966);
   color: #fff;
   font-size: 14px;
   text-align: center;
