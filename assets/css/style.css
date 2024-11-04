@@ -897,26 +897,34 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  width: 100%;
+  display: flex;
+  justify-content: space-around; /* Distribuisce gli elementi con spaziatura uniforme */
+  align-items: center; /* Centra gli elementi verticalmente */
   background: #fff;
+  width: 100%;
+  padding: 20px 0; /* Aggiungi padding per un po' di spazio sopra e sotto */
+}
+
+.contact .info div {
+  flex: 1; /* Assicura che ogni sezione abbia la stessa larghezza */
+  text-align: center; /* Centra il testo all'interno di ogni sezione */
 }
 
 .contact .info i {
   font-size: 20px;
   color: #FF6600;
-  float: left;
   width: 44px;
   height: 44px;
   background: #eef7ff;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 50%; /* Assicura che l'icona sia perfettamente circolare */
+  margin: 0 auto 10px; /* Centra l'icona e aggiunge spazio sotto */
   transition: all 0.3s ease-in-out;
 }
 
 .contact .info h4 {
-  padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
@@ -924,14 +932,13 @@ section {
 }
 
 .contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
   font-size: 14px;
   color: #728394;
+  margin: 0; /* Rimuove il padding laterale */
 }
 
 .contact .info .email, .contact .info .phone {
-  margin-top: 40px;
+  margin-top: 0; /* Rimuovi il margine superiore per un layout uniforme */
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
